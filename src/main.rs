@@ -163,7 +163,7 @@ fn index() -> String {
         //</figure>
 
         <span class="is-family-monospace is-size-4">
-            "/usr/stories are fringe tales<br/> from the computer revolution."
+            "/usr/stories are hard scifi tales<br/> from the computer revolution."
 
         </span>
 
