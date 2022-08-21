@@ -116,7 +116,7 @@ fn template(inner: String) -> String {
         <footer class="footer has-text-white has-background-black">
         <div class="content has-text-centered">
             <p>
-                    <a href="privacy.html">"Privacy Policy"</a>
+                    "We do not collect your data."
             </p>
         </div>
         </footer>
