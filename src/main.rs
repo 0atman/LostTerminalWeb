@@ -116,7 +116,7 @@ fn template(inner: String) -> String {
         <footer class="footer has-text-white has-background-black">
         <div class="content has-text-centered">
             <p>
-                    "We do not collect your data."
+                    "We do not collect your data. Stop sending it to us."
             </p>
         </div>
         </footer>
