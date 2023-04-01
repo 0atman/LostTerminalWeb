@@ -46,6 +46,10 @@ fn template(inner: String) -> String {
                   .narrow {
                      max-width: 50%;
                   }
+                  h1 {
+                    max-width: 40rem;
+                    line-height: 3rem;
+                  }
             "</style>
            </head>
 
@@ -78,7 +82,7 @@ fn index() -> String {
         <a href="">"Support us on Patreon"</a>"&nbsp;&nbsp;"
         <br/>
         <br/>
-        <h1><a href="">"/usr/stories"</a>" are hard scifi tales<br/>from the computer revolution."</h1>
+        <h1><a href="">"/usr/stories"</a>" are hard scifi tales from the computer revolution."</h1>
         <div class="narrow">
         </div>
       </center>
