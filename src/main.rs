@@ -90,16 +90,16 @@ fn index() -> String {
       "
       <div id="typed">r#"
         total 10<br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 <a href="">episode0.mp3</a><br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 episode1.mp3<br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 episode2.mp3<br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 episode3.mp3<br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 episode4.mp3<br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 episode5.mp3<br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 episode6.mp3<br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 episode7.mp3<br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 episode8.mp3<br/>
-        -rw-r--r-- 1 oatman oatman    0 Jan  1 00:00 episode9.mp3<br/>
+        -rw-r--r-- Jan  1 00:00 <a href="">episode0.mp3</a><br/>
+        -rw-r--r-- Jan  1 00:00 episode1.mp3<br/>
+        -rw-r--r-- Jan  1 00:00 episode2.mp3<br/>
+        -rw-r--r-- Jan  1 00:00 episode3.mp3<br/>
+        -rw-r--r-- Jan  1 00:00 episode4.mp3<br/>
+        -rw-r--r-- Jan  1 00:00 episode5.mp3<br/>
+        -rw-r--r-- Jan  1 00:00 episode6.mp3<br/>
+        -rw-r--r-- Jan  1 00:00 episode7.mp3<br/>
+        -rw-r--r-- Jan  1 00:00 episode8.mp3<br/>
+        -rw-r--r-- Jan  1 00:00 episode9.mp3<br/>
         <a href="">$ play episode0.mp3</a><br/>
       "#</div>
 
