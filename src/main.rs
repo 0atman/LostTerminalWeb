@@ -20,7 +20,7 @@ fn template(inner: String) -> String {
                   body {
                     font: 100% Courier New, monospace;
                     margin: 20px;
-                    line-height: 26px;
+                    //line-height: 26px;
                     background-color: #000000;
                     padding: 10px;
                     color: #84c754;
@@ -78,7 +78,7 @@ fn index() -> String {
         <a href="">"Support us on Patreon"</a>"&nbsp;&nbsp;"
         <br/>
         <br/>
-        <h1><a href="">"/usr/stories"</a>" are hard scifi tales<br/><br/>from the computer revolution."</h1>
+        <h1><a href="">"/usr/stories"</a>" are hard scifi tales<br/>from the computer revolution."</h1>
         <div class="narrow">
         </div>
       </center>
