@@ -89,7 +89,7 @@ fn index() -> String {
       <br/>
       <br/>
       "
-        $ cd season1/<br>
+        $ cd /usr/stories<br>
         $ ls -al<br>
       "
       <div id="typed">r#"
