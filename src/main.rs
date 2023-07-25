@@ -48,7 +48,8 @@ fn template(inner: String) -> String {
                <link rel="icon" href="favicon.png"/>
 
                <meta charset="utf-8"/>
-               <meta name="description" content="/usr/stories podcast"/>
+               <meta name="description" content="How do you learn to be human if there's no-one around to teach you?"/>
+
                <meta content="width=device-width, initial-scale=1" name="viewport"/>
                <title>"Lost Terminal Podcast"</title>
 
