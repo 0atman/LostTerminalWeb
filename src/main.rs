@@ -125,19 +125,19 @@ fn seasons() -> String {
         <h1>"BEWARE SPOILERS!"</h1>
 
         <h2>"1.0"</h2>
-            "On Station 6, an ESA satellite, Seth the AI finds his generator is at long last winding down. Drastic measures must be made to find a new life for himself. With his trusted friend Antarctica and less-understood friend Peter back on earth, he enacs a wild escape plan."
+            "On Station 6, an ESA satellite, Seth the AI finds his generator is at long last winding down. Drastic measures must be made to find a new life for himself. With his trusted friend Antarctica and less-understood friend Peter back on earth, he enacts a wild escape plan."
 
         <h2>"2.0"</h2>
             "Having crashed the Shuttle, Seth wakes up in unfamiliar databanks in an unfamiliar location. He is on Earth! But who are his new friends, why did Antarctica betray him, and who lives in the cracked bunker at the top of the hill?"
 
         <h2>"3.0"</h2>
-            "Now living in the Bunker, Seth is able to pick up transmissions from farther afield, even all the way to the signal coming from just outside Geneva. It's a group of survivors, and they need help. "
+            "Now living in the bunker, Seth is able to pick up transmissions from farther afield, even all the way to the signal coming from just outside Geneva. It's a group of survivors, and they need help. "
 
         <h2>"4.0"</h2>
-            "Seth and Ana meet a new friend, Minnie, who they play a remote game of imagination and adventure with, while Seth wrestles with his dual nature."
+            "Seth and Ana meet a new friend, Minnie, whom they play a remote game of imagination and adventure with, while Seth wrestles with his dual nature."
 
         <h2>"5.0"</h2>
-            "Antarctica needs resucing, and Seth and his new Svalbardian friends Pawel, Linda, Kamil, Yeshi, and Amelie, sail from the top of the world to the bottom. But will they be in time?"
+            "Antarctica needs resucing, and Seth and his new Svalbardian friends Pawel, Linda, Kamil, Yeshi, and Amelie, sail from the top of the world to the bottom. But will they arrive in time?"
 
         <h2>"6.0"</h2>
             "With Antarctica reluctantly rescued, the ship returns to the Novamediterra. Seth meets a fellow AI TASSI, who lives in California, and another, LUNA, who live on the far side of the moon."
@@ -146,16 +146,16 @@ fn seasons() -> String {
             "Seth's friend LUNA wants to have more contact with the world, and PETER has some trouble. As for Seth, he searches for his place in the world."
 
         <h2>"8.0"</h2>
-            "A long-dormant ESA FAILSAFE satellite wakes and begins taking over the whole network. Maddie, with her new capable EQUUS legs, hitches a lift to The Netherlands, and seeks to stop it by finding ESA Mission Control."
+            "A long-dormant ESA FAILSAFE satellite wakes and begins taking over the whole network. Maddie, with her new capable EQUUS legs, hitches a lift to the Netherlands, and seeks to stop it by finding ESA Mission Control."
 
         <h2>"9.0"</h2>
             "Seth and Maddie ride the Trans Siberian express, and make friends with the family that run the old train. All the while, IVAN and LUNA attempt to find god."
 
         <h2>"10.0"</h2>
-            "Half way through their journey, the train breaks down in a large abandoned city. The family and Maddie must scavenge for food and parts to keep body and train together. But who is that voice in the city?"
+            "Half way through their journey, the train breaks down in a large abandoned city. The family and Maddie must scavenge for food and parts to keep body and train together. But who is the voice in the city?"
 
         <h2>"11.0"</h2>
-            "An injury causes Seth to regress into his memories, and he thinks he is back on Station 6. His mother and the crew are alive, and he has no memory of his time on Earth. The dream begins to crumble, but Seth wants to stay asleep."
+            "An injury causes Seth to regress into his memories, and he thinks he is back on Station 6, his mother and the crew are alive, and he has no memory of his time on Earth. The dream begins to crumble, but Seth wants to stay asleep."
 
         <h2>"12.0"</h2>
             "Repaired by the Omarov family, with remote guidance from Alexander, Seth returns to the Novamediterra on board the Molly Hughes II again. On the journey, they discover a great deal more life, both natural and mechanical, exists beneath the waves than they realised."
