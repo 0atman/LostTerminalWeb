@@ -74,7 +74,7 @@ fn template(inner: String) -> String {
         <br/>
 
 
-        <img src="https://lostterminal.com/logo.png" width="50%"/>
+        <img src="logo.png" width="50%"/>
     </center>
            {inner}
 
@@ -113,6 +113,20 @@ fn index() -> String {
         <a href="https://www.spreaker.com/show/lost-terminal">"Listen here"</a>
     </div>
     </center>
+    })
+}
+
+fn seasons() -> String {
+    template(html! {
+
+      "Every episode has headline credits within the episode, and extended credits in the descriptions, both on youtube and in the shownotes of the podcast."
+      <br/>
+      "However, Lost Terminal would not be what it is today without these people, who I would like to thank here too:"
+      <br/>
+      <br/>
+      <br/>
+
+      <h2 class="title has-text-white">"Voices"</h2>
     })
 }
 
@@ -197,19 +211,20 @@ fn credits() -> String {
         })
 }
 
+fn build(pages: Vec<(&str, fn() -> String)>) -> Result<(), Report> {
+    for (page, fun) in pages {
+        std::fs::write(page, fun())?;
+    }
+    Ok(())
+}
+
 fn main() -> Result<(), Report> {
     std::fs::create_dir_all("docs")?;
     let _ = build(vec![
         ("docs/index.html", index),
         ("docs/credits.html", credits),
+        ("docs/seasons.html", seasons),
     ]);
     println!("Built site OK!");
-    Ok(())
-}
-
-fn build(pages: Vec<(&str, fn() -> String)>) -> Result<(), Report> {
-    for (page, fun) in pages {
-        std::fs::write(page, fun())?;
-    }
     Ok(())
 }
