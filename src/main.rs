@@ -6,7 +6,6 @@ fn template(inner: String) -> String {
       body {
         font: 100% Courier New, monospace;
         margin: 20px;
-        //line-height: 26px;
         background-color: #000000;
         padding: 10px;
         color: #84c754;
@@ -15,6 +14,9 @@ fn template(inner: String) -> String {
         color: white;
       }
       .white {
+        color: white;
+      }
+      h2 {
         color: white;
       }
       .glow {
@@ -50,7 +52,7 @@ fn template(inner: String) -> String {
                <meta charset="utf-8"/>
                <meta name="description" content="/usr/stories podcast"/>
                <meta content="width=device-width, initial-scale=1" name="viewport"/>
-               <title>"/usr/stories podcast"</title>
+               <title>"Lost Terminal Podcast"</title>
 
                <style>
 
@@ -65,6 +67,7 @@ fn template(inner: String) -> String {
         <a href="https://www.spreaker.com/show/lost-terminal">"Listen"</a>"&nbsp;&nbsp;"
         <a href="https://fosstodon.org/@lostterminal">"Follow me on Mastodon"</a>"&nbsp;&nbsp;"
         <a href="credits.html">"Credits"</a>"&nbsp;&nbsp;"
+        <a href="https://www.teepublic.com/user/lost-terminal">"Store"</a>"&nbsp;&nbsp;"
         <a href="https://discord.gg/mCY2bBmDKZ">"Chat on Discord"</a>"&nbsp;&nbsp;"
         <a href="https://www.patreon.com/lostterminalpod">"Support me on Patreon"</a>"&nbsp;&nbsp;"
         <br/>
@@ -72,10 +75,10 @@ fn template(inner: String) -> String {
 
 
         <img src="https://lostterminal.com/logo.png" width="50%"/>
+    </center>
            {inner}
 
 
-    </center>
     </body>
      <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
      <script language="javascript">
@@ -95,7 +98,7 @@ fn template(inner: String) -> String {
 
 fn index() -> String {
     template(html! {
-
+    <center>
               <div class="white"> "How do you learn to be human if there's no-one around to teach you?" </div>
               <br/>
               <br/>
@@ -109,7 +112,7 @@ fn index() -> String {
 
         <a href="https://www.spreaker.com/show/lost-terminal">"Listen here"</a>
     </div>
-
+    </center>
     })
 }
 
