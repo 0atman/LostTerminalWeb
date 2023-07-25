@@ -9,6 +9,10 @@ fn template(inner: String) -> String {
         background-color: #000000;
         padding: 10px;
         color: #84c754;
+        background-image: url('stars.jpeg');
+     background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
       }
       a, .white, h1, h2 {
         color: white;
