@@ -10,13 +10,7 @@ fn template(inner: String) -> String {
         padding: 10px;
         color: #84c754;
       }
-      a {
-        color: white;
-      }
-      .white {
-        color: white;
-      }
-      h2 {
+      a, .white, h1, h2 {
         color: white;
       }
       .glow {
@@ -119,14 +113,41 @@ fn index() -> String {
 fn seasons() -> String {
     template(html! {
 
-      "Every episode has headline credits within the episode, and extended credits in the descriptions, both on youtube and in the shownotes of the podcast."
-      <br/>
-      "However, Lost Terminal would not be what it is today without these people, who I would like to thank here too:"
-      <br/>
-      <br/>
-      <br/>
 
-      <h2 class="title has-text-white">"Voices"</h2>
+        <h1>"PLOT SUMMARIES FOR EACH SEASON BEWARE SPOILERS!"</h1>
+
+        <h2>"1.0"</h2>
+            "On Station 6, an ESA satellite, Seth the AI finds his generator is at long last winding down. Drastic measures must be made to find a new life for himself. With his trusted friend Antarctica and less-understood friend Peter back on earth, he enacs a wild escape plan."
+
+        <h2>"2.0"</h2>
+            "Having crashed the Shuttle, Seth wakes up in unfamiliar databanks in an unfamiliar location. He is on Earth! But who are his new friends, why did Antarctica betray him, and who lives in the cracked bunker at the top of the hill?"
+
+        <h2>"3.0"</h2>
+            ""
+
+        <h2>"4.0"</h2>
+
+
+        <h2>"5.0"</h2>
+
+
+        <h2>"6.0"</h2>
+
+
+        <h2>"7.0"</h2>
+
+
+        <h2>"8.0"</h2>
+
+
+        <h2>"9.0"</h2>
+
+
+        <h2>"10.0"</h2>
+
+
+        <h2>"11.0"</h2>
+        <h2>"12.0"</h2>
     })
 }
 
