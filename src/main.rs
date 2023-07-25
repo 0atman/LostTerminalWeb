@@ -10,9 +10,9 @@ fn template(inner: String) -> String {
         padding: 10px;
         color: #84c754;
         background-image: url('stars.jpeg');
-     background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
       }
       a, .white, h1, h2 {
         color: white;
@@ -63,13 +63,13 @@ fn template(inner: String) -> String {
 
     <body class="glow">
       <center>
-        <a href="https://www.spreaker.com/show/lost-terminal">"Listen"</a>"&nbsp;&nbsp;"
-        <a href="https://fosstodon.org/@lostterminal">"Follow me on Mastodon"</a>"&nbsp;&nbsp;"
-        <a href="credits.html">"Credits"</a>"&nbsp;&nbsp;"
-        <a href="seasons.html">"Seasons"</a>"&nbsp;&nbsp;"
-        <a href="https://www.teepublic.com/user/lost-terminal">"Store"</a>"&nbsp;&nbsp;"
-        <a href="https://discord.gg/mCY2bBmDKZ">"Chat on Discord"</a>"&nbsp;&nbsp;"
-        <a href="https://www.patreon.com/lostterminalpod">"Support me on Patreon"</a>"&nbsp;&nbsp;"
+        <a href="https://www.spreaker.com/show/lost-terminal">"Listen"</a>"&nbsp; "
+        <a href="https://fosstodon.org/@lostterminal">"Follow me on Mastodon"</a>"&nbsp; "
+        <a href="credits.html">"Credits"</a>"&nbsp; "
+        <a href="seasons.html">"Seasons"</a>"&nbsp; "
+        <a href="https://www.teepublic.com/user/lost-terminal">"Store"</a>"&nbsp; "
+        <a href="https://discord.gg/mCY2bBmDKZ">"Chat on Discord"</a>"&nbsp; "
+        <a href="https://www.patreon.com/lostterminalpod">"Support me on Patreon"</a>"&nbsp; "
         <br/>
         <br/>
 
