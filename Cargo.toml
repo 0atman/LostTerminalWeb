@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 yate = "0.1.2"
 color-eyre = "*"
+rstml-to-string-macro = "0.1.0"
+html-to-string-macro = "0.2.5"
