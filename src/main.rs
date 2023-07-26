@@ -28,7 +28,8 @@ fn template(inner: String) -> String {
       h1 {
         max-width: 40rem;
         line-height: 3rem;
-      }"#;
+      }
+"#;
     html! {
            <!DOCTYPE html>
            <html lang="en">
@@ -65,15 +66,14 @@ fn template(inner: String) -> String {
 
 
         <a href="index.html">
-        <img src="logo.png" width="50%"/>
+        <img alt="an outline of a satellite" src="logo.png" width="50%"/>
         </a>
     </center>
            {inner}
 
 
-    </body>
      <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
-     <script language="javascript">
+     <script>
      r##"
      new TypeIt("#typed", {
         speed: 100,
@@ -84,6 +84,8 @@ fn template(inner: String) -> String {
       "##
      </script>
 
+    </body>
+
      </html>
     }
 }
@@ -91,9 +93,9 @@ fn template(inner: String) -> String {
 fn index() -> String {
     template(html! {
     <center>
-              <div class="white"> "How do you learn to be human if there's no-one around to teach you?" </div>
-              <br/>
-              <br/>
+          <div class="white"> "How do you learn to be human if there's no-one around to teach you?" </div>
+          <br/>
+          <br/>
           "A hopepunk podcast following the journey of a little satellite trying to understand what has happened after Earth stops returning his calls."
       <div class="narrow">
       </div>
