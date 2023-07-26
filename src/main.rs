@@ -86,7 +86,7 @@ fn template(inner: String) -> String {
      <script language="javascript">
      r##"
      new TypeIt("#typed", {
-        speed: 1,
+        speed: 100,
         loop: false,
         html: true,
         nextStringDelay: 0
@@ -110,9 +110,11 @@ fn index() -> String {
     <br/>
     <br/>
 
-    <div id="typed">"New episodes Mondays." "&nbsp;"
-
         <a href="https://www.spreaker.com/show/lost-terminal">"Listen here"</a>
+        <br/>
+        <br/>
+    <div id="typed">"New episodes Mondays."
+
     </div>
     </center>
     })
