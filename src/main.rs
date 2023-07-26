@@ -19,18 +19,8 @@ fn template(inner: String) -> String {
       }
       .glow {
         color: #84c754;
-        -webkit-animation: glow 1s linear infinite alternate;
-        -moz-animation: glow 1s linear infinite alternate;
-        animation: glow 1s linear infinite alternate;
-        text-shadow: 0 0 5px #fff;
+        text-shadow: 0 0 10px #fff;
       }
-      @-webkit-keyframes glow {
-        from {
-          text-shadow: 0 0 10px #fff;
-        }
-        to {
-          text-shadow: 0 0 15px #fff;
-        }
       }
       .narrow {
          max-width: 50%;
