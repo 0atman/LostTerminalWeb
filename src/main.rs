@@ -103,7 +103,7 @@ fn index() -> String {
     <br/>
     <br/>
 
-        <a href="https://www.youtube.com/watch?v=p3bDE9kszMc">"Watch here"</a>
+        <a href="https://www.youtube.com/watch?v=p3bDE9kszMc&list=PL95NP4bDITAln7fq-cCqzOFE15UvVthuL&index=1">"Watch here"</a>
         <br/>
         <br/>
     <div id="typed">"New episodes Mondays."
