@@ -213,7 +213,7 @@ fn credits() -> String {
 
       <h2 class="title has-text-white">"Character Concepts"</h2>
 
-          "Sometimes friends suggest ideas to me, and sometimes I include them! (after some modification). If you are a patron, look" <a href="https://www.patreon.com/posts/52133498">"here"</a> "for how your character ideas can be included in Lost Terminal."
+          "Sometimes friends and patrons suggest ideas to me, and sometimes I include them! (after some modification). If you are a patron, look" <a href="https://www.patreon.com/posts/52133498">"here"</a> "for how your character ideas can be included in Lost Terminal."
           <br/>
           <br/>
 
@@ -223,6 +223,7 @@ fn credits() -> String {
           <li>"Yeshi created by Petra Bačkovská"</li>
           <li>"TASSI created by CM-47"</li>
           <li>"NANA created by Sal Boye"</li>
+          <li>"ONI created by Jack Locke"</li>
       </div>
 
 
