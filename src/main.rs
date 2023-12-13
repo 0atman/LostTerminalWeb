@@ -97,7 +97,7 @@ fn index() -> String {
           <div class="white"> "How do you learn to be human if there's no-one around to teach you?" </div>
           <br/>
           <br/>
-          "A hopepunk podcast following the journey of a little satellite trying to understand what has happened after Earth stops returning his calls."
+          "A hard sci-fi hopepunk podcast following the journey of a little satellite trying to understand what has happened after Earth stops returning his calls."
       <div class="narrow">
       </div>
     <br/>
