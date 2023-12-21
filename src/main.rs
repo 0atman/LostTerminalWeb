@@ -155,6 +155,9 @@ fn seasons() -> String {
 
         <h2>"12.0"</h2>
             "Repaired by the Omarov family, with remote guidance from Alexander, Seth returns to the Novamediterra on board the Molly Hughes II again. On the journey, they discover a great deal more life, both natural and mechanical, exists beneath the waves than they realised."
+
+        <h2>"13.0"</h2>
+            "Alone for long periods of time in Yeshi's shipyard workshop in Longyearbyen, Seth struggles with loneliness. Lyosha visits and bonds with Maddie, Arctica clashes with a new member of the vault, and all the while, our AI friends dream the same sinister dream."
     })
 }
 
@@ -213,7 +216,7 @@ fn credits() -> String {
 
       <h2 class="title has-text-white">"Character Concepts"</h2>
 
-          "Sometimes friends and patrons suggest ideas to me, and sometimes I include them! (after some modification). If you are a patron, look" <a href="https://www.patreon.com/posts/52133498">"here"</a> "for how your character ideas can be included in Lost Terminal."
+          "Sometimes friends and patrons suggest ideas to me, and sometimes I include them! (after some modification). If you are a patron, look " <a href="https://www.patreon.com/posts/52133497">"here"</a> " for how your character ideas can be included in Lost Terminal."
           <br/>
           <br/>
 
@@ -232,7 +235,7 @@ fn credits() -> String {
 
       <h2 class="title has-text-white">"Additional Material"</h2>
       <div class="list">
-          <li>"Podcast artwork by Carl Huber" <a class="has-text-white" href="http://www.carlh.com">"(carlh.com)"</a></li>
+          <li>"Podcast artwork by Carl Huber " <a class="has-text-white" href="http://www.carlh.com">"(carlh.com)"</a></li>
       </div>
     </span>
 
