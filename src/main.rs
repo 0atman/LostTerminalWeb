@@ -55,7 +55,7 @@ fn template(inner: String) -> String {
     <body class="glow">
       <center>
         <a href="https://www.spreaker.com/show/lost-terminal">"Listen"</a>"&nbsp; "
-        <a href="https://fosstodon.org/@lostterminal">"Mastodon"</a>"&nbsp; "
+        <a href="https://namtao.com/@lostterminal">"Mastodon"</a>"&nbsp; "
         <a href="https://www.namtao.com/lt/#Credits">"Credits"</a>"&nbsp; "
         <a href="https://www.namtao.com/lt/#season-summary">"Seasons"</a>"&nbsp; "
         <a href="https://www.teepublic.com/user/lost-terminal">"Store"</a>"&nbsp; "
